@@ -1,5 +1,5 @@
-# ForumDR
-ForumDR: Curating Online Forum Knowledge as Troubleshooting Dataset for Generative AI Using Fusion Retrieval 
+# ForumSeeker
+ForumSeeker: Fusion Retrieval of Online Technical Forums for Effective Troubleshooting 
 
 ### Organization
 ---
@@ -10,11 +10,11 @@ ForumDR: Curating Online Forum Knowledge as Troubleshooting Dataset for Generati
 |--relevance_computation                #Computing relevance between classified stackoverflow data 
 ```
 
-### 🖥 Running ForumDR
+### 🖥 Running ForumSeeker
 ---
 ```
-git clone https://gitlab.com/dbdid0064/forumdr.git
-cd forumdr 
+git clone https://github.com/youuyk/ForumSeeker.git
+cd ForumSeeker 
 pip install -r requirements.txt 
 git clone https://huggingface.co/yykimyykim/forumdr-GraphCodeBERT-code-output
 ```
@@ -74,9 +74,9 @@ Rank 3: https://stackoverflow.com/questions/54463543
 Rank 10: https://stackoverflow.com/questions/45290219
 ``` 
 
-### 🔈Running ForumDR with custom data 
+### 🔈Running ForumSeeker with custom data 
 ---
-To run ForumDR with custom data, the data should be saved as pickle. 
+To run ForumSeeker with custom data, the data should be saved as pickle. 
 First, save user-side data at ```./failure_case/``` directory. 
 ```
 |--failure_case         # Directory to save user-side data from failure system 
@@ -100,4 +100,4 @@ The outcome:
     |--openstack_manual.pickle     # Pickle file for user-side data.
 ```
 
-After generating file, follow the step in "Running ForumDR" 
+After generating file, follow the step in "Running ForumSeeker" 
