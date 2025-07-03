@@ -1,5 +1,11 @@
 # ForumSeeker
+
+## Overview 
+
 ForumSeeker: Fusion Retrieval of Online Technical Forums for Effective Troubleshooting 
+*ForumSeeker* retrieves relevant forum posts (e.g., from Stack Overflow) for troubleshooting by using a structure-preserving chunking method and relevance scoring based on heterogeneous technical artifacts and an ensemble of domain-tuned language models. 
+
+<img src=https://github.com/youuyk/ForumSeeker/issues/1#issue-3198449817>
 
 ## Organization
 ---
