@@ -1,7 +1,7 @@
 # ForumSeeker
 ForumSeeker: Fusion Retrieval of Online Technical Forums for Effective Troubleshooting 
 
-### Organization
+## Organization
 ---
 ```
 |--failure_case                         #Directory to save failure case data.
@@ -10,7 +10,7 @@ ForumSeeker: Fusion Retrieval of Online Technical Forums for Effective Troublesh
 |--relevance_computation                #Computing relevance between classified stackoverflow data 
 ```
 
-### 🖥 Running ForumSeeker
+## 🖥 Running ForumSeeker
 ---
 ```
 git clone https://github.com/youuyk/ForumSeeker.git
@@ -18,7 +18,7 @@ cd ForumSeeker
 pip install -r requirements.txt 
 git clone https://huggingface.co/yykimyykim/forumdr-GraphCodeBERT-code-output
 ```
-#### Step1. Preprocessing 
+### Step1. Preprocessing 
 The example data is stored in ```./data_stackoverflow/``` directory. 
 
 With this step, the input stackoverflow data will be classified into one of the data type ['code', 'log', 'command', 'console output', 'description]. 
@@ -41,7 +41,7 @@ The outcome:
         |--combined_qID.pickle  # Classified data saved with stackoverflow question id 
 ``` 
 
-#### Step2. Relevance Computation 
+### Step2. Relevance Computation 
 
 Computing the relevance between stackoverflow data and failure case data. 
 
@@ -74,7 +74,7 @@ Rank 3: https://stackoverflow.com/questions/54463543
 Rank 10: https://stackoverflow.com/questions/45290219
 ``` 
 
-### 🔈Running ForumSeeker with custom data 
+## 🔈Running ForumSeeker with custom data 
 ---
 To run ForumSeeker with custom data, the data should be saved as pickle. 
 First, save user-side data at ```./failure_case/``` directory. 
