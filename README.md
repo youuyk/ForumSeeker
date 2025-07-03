@@ -1,6 +1,6 @@
 # ForumSeeker
 
-## Overview 
+## 📑 Overview 
 
 **ForumSeeker: Fusion Retrieval of Online Technical Forums for Effective Troubleshooting**
 
@@ -8,7 +8,7 @@
 
 ![Image](https://github.com/user-attachments/assets/dc6c2dd5-3940-4bea-a9bd-8bff2aee26b6)
 
-## Organization
+## 📁 Organization
 ---
 ```
 |--failure_case                         #Directory to save failure case data.
