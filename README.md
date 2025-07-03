@@ -20,6 +20,7 @@ git clone https://huggingface.co/yykimyykim/forumdr-GraphCodeBERT-code-output
 ```
 #### Step1. Preprocessing 
 The example data is stored in ```./data_stackoverflow/``` directory. 
+
 With this step, the input stackoverflow data will be classified into one of the data type ['code', 'log', 'command', 'console output', 'description]. 
 
 To run this step,
