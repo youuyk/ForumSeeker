@@ -43,13 +43,13 @@ The outcome:
 
 #### Step2. Relevance Computation 
 
-Computing the relevance between stackoverflow data and user-side data. 
+Computing the relevance between stackoverflow data and failure case data. 
 
 The example failure case data is stored in ```./failure_case/``` directory. 
 
-With this step, we compute the relevance between classified stackoverflow data and user-side data from failure system. 
+With this step, we compute the relevance between classified stackoverflow data and failure case data from failure system. 
 
-The fine-tuned models stored in huggingface will be loaded in this step. 
+The fine-tuned models stored in huggingface will be loaded in this step. (We fine-tuned the model based on the publicly released code.)
 
 To run this step, 
 ```python
@@ -89,15 +89,15 @@ First, save user-side data at ```./failure_case/``` directory.
             |-description   # User-side description from failure system. 
 ```
 
-Next, run ```userside_to_pickle.py```.
+Next, run ```failure_case_to_pickle.py```.
 ```
-python3 userside_to_pickle.py --system openstack --path ./failure_case/manual_failure_case --savePath ./failure_case/
+python3 failure_case_to_pickle.py --system openstack --path ./failure_case/manual_failure_case --savePath ./failure_case/
 ``` 
 
 The outcome:
 ```
 |--failure_case             # Directory to save user-side data. 
-    |--openstack.pickle     # Pickle file for user-side data.
+    |--openstack_manual.pickle     # Pickle file for user-side data.
 ```
 
 After generating file, follow the step in "Running ForumDR" 
