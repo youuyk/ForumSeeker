@@ -8,8 +8,6 @@
 
 ![Image](https://github.com/user-attachments/assets/dc6c2dd5-3940-4bea-a9bd-8bff2aee26b6)
 
-Our paper presented at **GoodData'2025(AAAI Workshop)** can be found here: [Paper](https://drive.google.com/file/d/1fU04NtxDZgmKcDa6UKRlJZRnZ7jcdPmI/view?usp=sharing)
-
 ## 📁 Organization
 ---
 ```
